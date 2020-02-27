@@ -10,7 +10,6 @@
  * @version 1.0
  */
 
-
 get_header(); ?>
 
     <section class="m-5 p-5">
