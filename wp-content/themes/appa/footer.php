@@ -16,13 +16,14 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 <?php wp_footer(); ?>
 
-<section class="footer" style="padding-top: <?=is_front_page() ?'400px' :'0px' ?>">
+<section class="footer" style="">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-3">
-                <img id="cham2" src="<?=ASSET?>/assets/images/footer.png">
+                <img id="cham2" src="<?=ASSET?>/assets/images/appa/fot.png">
             </div>
             <div class="col-12 col-md-3">
                 <h4 class="title">ABOUT US</h4>
@@ -43,6 +44,7 @@
             </div>
         </div>
     </div>
+    <div class="footer-line"></div>
 </section>
 <div id="scrollTop">
     

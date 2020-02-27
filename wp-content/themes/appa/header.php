@@ -29,11 +29,10 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-md-5 d-flex align-items-center">
-                <img width="200" src="<?= ASSET?>/assets/images/log.png" class="img-fluid">
-                <img width="80" src="<?= ASSET?>/assets/images/lara.png" class="ml-4 img-fluid">
+            <div class="col-md-4 d-flex align-items-center">
+                <img width="240" src="<?= ASSET?>/assets/images/logo.png" class="img-fluid">
             </div>
-            <div class="col-md-7">
+            <div class="col-md-8">
                 <nav class="navbar navbar-expand-lg">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -42,6 +41,9 @@
                         <ul class="navbar-nav">
                             <li class="nav-item active">
                                 <a class="nav-link" href="/">HOME</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/">ABOUT US</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/case-study">CASE STUDY</a>
