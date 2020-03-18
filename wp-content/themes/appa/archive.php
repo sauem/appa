@@ -12,10 +12,8 @@ get_header();
                     <div class="col-md-4 col-12">
                         <div class="card">
                             <img class="img-fluid rounded" src="<?= simage(get_the_post_thumbnail_url(), [300,200]) ?>">
-                            <h2 class="item-title"><?=get_the_title()?></h2>
-                            <p class="text-3"><?=get_the_excerpt()?></p>
-                            <?php $id = get_the_ID();?>
-
+                            <h2 class="item-title"><a href="<?= get_the_permalink() ?>"><?= get_the_title() ?></a>  </h2>
+                            <p class="text-2 p-2"><?=get_the_excerpt()?></p>
                         </div>
                     </div>
                 <?php endwhile;?>
