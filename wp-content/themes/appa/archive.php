@@ -10,10 +10,10 @@ get_header();
                 while (have_posts()) : the_post();
                 ?>
                     <div class="col-md-4 col-12">
-                        <div class="card">
+                        <div class="card my-3">
                             <img class="img-fluid rounded" src="<?= simage(get_the_post_thumbnail_url(), [300,200]) ?>">
-                            <h2 class="item-title"><a href="<?= get_the_permalink() ?>"><?= get_the_title() ?></a>  </h2>
-                            <p class="text-2 p-2"><?=get_the_excerpt()?></p>
+                            <h2 class="m-0 pt-2 px-2 text-2 item-title"><a href="<?= get_the_permalink() ?>"><?= get_the_title() ?></a>  </h2>
+                            <p class="text-3 p-2"><?=get_the_excerpt()?></p>
                         </div>
                     </div>
                 <?php endwhile;?>

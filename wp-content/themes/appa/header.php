@@ -43,7 +43,7 @@
                                 <a class="nav-link" href="/">HOME</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="/">ABOUT US</a>
+                                <a class="nav-link" href="/about-us">ABOUT US</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/case-study">CASE STUDY</a>
